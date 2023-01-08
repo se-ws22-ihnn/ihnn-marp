@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+    app:
+        image: ghcr.io/se-ws22-ihnn/ihnn-marp:latest
+        restart: unless-stopped
+        expose:
+            - 80

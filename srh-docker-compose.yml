@@ -1,0 +1,13 @@
+version: "3.9"
+
+networks:
+    default:
+        name: nginx-proxy-manager_default
+        external: true
+
+services:
+    app:
+        image: ghcr.io/se-ws22-ihnn/ihnn-marp:latest
+        restart: unless-stopped
+        expose:
+            - 80

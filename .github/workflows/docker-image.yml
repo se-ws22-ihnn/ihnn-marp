@@ -1,0 +1,31 @@
+name: Publish docker images from main
+
+on:
+    push:
+        branches: ["main"]
+    pull_request:
+        branches: ["main"]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+
+            - name: Get commit hash for release
+              id: commit
+              uses: pr-mpt/actions-commit-hash@v2
+
+            - name: Login to GitHub Container Registry
+              uses: docker/login-action@v1
+              with:
+                  registry: ghcr.io
+                  username: ${{ github.actor }}
+                  password: ${{ secrets.REGISTRY_PAT }}
+
+            - name: Build the Docker image and tag it short commit hash
+              run: |
+                  docker pull ghcr.io/se-ws22-ihnn/ihnn-marp:latest
+                  docker build . --tag ghcr.io/se-ws22-ihnn/ihnn-marp:latest --tag ghcr.io/se-ws22-ihnn/ihnn-marp:${{ steps.commit.outputs.short }}
+                  docker push ghcr.io/se-ws22-ihnn/ihnn-marp:${{ steps.commit.outputs.short }}
+                  docker push ghcr.io/se-ws22-ihnn/ihnn-marp:latest
