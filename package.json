@@ -1,0 +1,23 @@
+{
+	"name": "ihnn-marp",
+	"version": "1.0.0",
+	"description": "easy presentation image for our project",
+	"main": "",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": ""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/se-ws22-ihnn/ihnn-marp.git"
+	},
+	"author": "Soeren Helms <soeren.helms@repronik.it>",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/se-ws22-ihnn/ihnn-marp/issues"
+	},
+	"homepage": "https://github.com/se-ws22-ihnn/ihnn-marp#readme",
+	"dependencies": {
+		"@marp-team/marp-cli": "^2.3.0"
+	}
+}
