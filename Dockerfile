@@ -30,3 +30,5 @@ RUN cp ./favicon.ico ./build/favicon.ico
 # nginx as web server - exposing port 80
 FROM nginx:mainline-alpine-slim
 COPY --from=build /usr/app/build /usr/share/nginx/html
+
+LABEL org.opencontainers.image.source=https://github.com/se-ws22-ihnn/ihnn-marp
