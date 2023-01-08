@@ -25,7 +25,6 @@ jobs:
 
             - name: Build the Docker image and tag it short commit hash
               run: |
-                  docker pull ghcr.io/se-ws22-ihnn/ihnn-marp:latest
                   docker build . --tag ghcr.io/se-ws22-ihnn/ihnn-marp:latest --tag ghcr.io/se-ws22-ihnn/ihnn-marp:${{ steps.commit.outputs.short }}
                   docker push ghcr.io/se-ws22-ihnn/ihnn-marp:${{ steps.commit.outputs.short }}
                   docker push ghcr.io/se-ws22-ihnn/ihnn-marp:latest
