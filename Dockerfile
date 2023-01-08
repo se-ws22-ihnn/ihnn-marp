@@ -15,11 +15,17 @@ RUN npm install
 # copy everything else
 COPY ./ ./
 
-# build the pdf
-RUN npx @marp-team/marp-cli@latest ./slides.md --pdf --output=./build/index.pdf
-
 # build the html
 RUN npx @marp-team/marp-cli@latest ./slides.md --html --output=./build/index.html
+
+# build the pdf
+RUN npx @marp-team/marp-cli@latest ./slides.md --pdf --pdf-notes --allow-local-files --output=./build/slides.pdf
+
+# build presenter notes
+RUN npx @marp-team/marp-cli@latest ./slides.md --notes -o ./build/slides.txt
+
+# build the pptx
+RUN npx @marp-team/marp-cli@latest ./slides.md --pptx --allow-local-files --output=./build/slides.pptx
 
 # copy assets to build folder
 RUN cp -r ./assets ./build/assets
