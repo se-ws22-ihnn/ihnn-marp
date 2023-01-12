@@ -34,6 +34,7 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 6. Organisation & Kommunikation
 7. Aussicht & Reflexion
 
+<!-- Nico -->
 ---
 
 ## Idee
@@ -45,6 +46,8 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 
 <!-- Die Idee neu übertragen, Uni-freundliches Thema, -->
 
+<!-- Nico -->
+
 ---
 
 ## Ermittlung der Anforderungen
@@ -53,6 +56,8 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 
 <!-- Mockup der ersten Stunde -->
 
+<!-- Jannik -->
+
 ---
 
 ## Use Case Diagramme
@@ -60,6 +65,8 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 ![width:1000px drop-shadow:0,5px,10px,rgba(0,0,0,.4)](./assets/d-uc-combo.png)
 
 <!-- gute wahl? -->
+
+<!-- Jannik -->
 
 ---
 
@@ -72,6 +79,8 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 
 <!-- one by one durchgehen -->
 
+<!-- Jannik -->
+
 ---
 
 ## Architektur: Kommunikation
@@ -83,6 +92,8 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 <!-- Kommunikation FE zu API, API zu DB -->
 <!-- hier vllt auch kurz auf die API eingehen und die Doku in der Live Demo zeigen -->
 
+<!-- Jannik -->
+
 ---
 
 ## State Machine
@@ -93,6 +104,8 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 
 <!-- Spielablauf in drei Phasen als State Machine, danach folgt das Aktivitätsd. -->
 
+<!-- Jannik -->
+
 ---
 
 ## Komponenten
@@ -101,11 +114,15 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 
 <!-- Der Aufbau der App gesehen in Komponenten, die teils neue Komponenten bilden -->
 
+<!-- Jannik -->
+
 ---
 
 ### Aktivitätsdiagramm
 
 ![width:450px](./assets/d-activity.png)
+
+<!-- Jannik -->
 
 ---
 
@@ -114,6 +131,8 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 ![width:800px](./assets/d-mvc.png)
 
 <!-- vereinfachte Darstellung, da wir kein Backend haben. Nur Views die auch M und C haben dargestellt -->
+
+<!-- Jannik -->
 
 ---
 
@@ -125,6 +144,8 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 
 [![live demo h:8em drop-shadow:0,5px,10px,rgba(0,0,0,.4)](./assets/map.png)](https://ihnn.x5f.de/)
 
+<!-- Nico -->
+
 ---
 
 ## Live Demo API
@@ -134,6 +155,8 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 <!-- in die Live Demo wechseln -->
 
 [![live demo h:5em drop-shadow:0,5px,10px,rgba(0,0,0,.4)](./assets/plane.png)](https://api.ihnn.x5f.de/)
+
+<!-- Sören -->
 
 ---
 
@@ -148,6 +171,8 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 <!-- one by one -->
 <!-- der Docker Build ist natürlich auch eine Art test, baut es nicht, wird gar nicht erst deployed... -->
 
+<!-- Engin -->
+
 ---
 
 ## Automation
@@ -157,6 +182,8 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 - Deployment mit GitHub Actions
 
 <!-- alle Teile des Projekts; Code, Doku und Präsi werden gebaut und ausgeliefert -->
+
+<!-- Sören -->
 
 ---
 
@@ -169,6 +196,7 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 ![width:800px](./assets/ghcr-packages.png)
 
 <!-- oft sogar schneller -->
+<!-- Sören -->
 
 ---
 
@@ -178,6 +206,8 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 - Teams Besprechungen
 
 <!-- darlegen das wasserfall eher suboptimal lief, da alles auf zwei Meilensteine aufgeteilt wurde; das eher aber auch wegen des fatalen Zeitmanagements -->
+
+<!-- Engin -->
 
 ---
 
@@ -192,6 +222,8 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 | Engin | Testing &bull; Datenmodell |
 | Nico | Design &bull; Präsentation |
 
+<!-- Engin -->
+
 ---
 
 ## Aussicht & Reflexion
@@ -203,6 +235,8 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 <!-- Nach einem Rewrite könnten neue Funktionen einfach als weitere Komponenten eingebaut werden -->
 <!-- bessere Worte für den Review finden -->
 
+<!-- Nico -->
+
 ---
 
 <!-- _footer: "" -->
@@ -211,11 +245,15 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 ![bg](./assets/tech-3-docs.png)
 ![bg](./assets/tech-4-marp.png)
 
+<!-- Sören -->
+
 ---
 
 ![bg](/assets/background.png)
 
 ## Fragen?
+
+<!-- Entsprechend des Ressort -->
 
 ---
 
