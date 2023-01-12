@@ -5,7 +5,7 @@ description: HAW Software Engineering WS22/23
 theme: uncover
 paginate: true
 _paginate: false
-footer: Team 05, Software Engineering WS22/23, HAW Hamburg
+footer: Team 05 &bull; Software Engineering WS22/23 &bull; HAW Hamburg
 _footer: ""
 ---
 
@@ -27,7 +27,7 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 ## Gliederung
 
 1. Idee
-2. Lastenheft ? Planung?
+2. Anforderung & Planung
 3. Umsetzung & Architektur
 4. Testing
 5. Automation & Deployment
@@ -47,7 +47,7 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 
 ---
 
-## Lastenheft
+## Ermittlung der Anforderungen
 
 ![width:800px](./assets/d-mockup.jpeg)
 
@@ -55,9 +55,9 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 
 ---
 
-## Use Case: Spiel vorbereiten
+## Use Case Diagramme
 
-![width:500px](./assets/d-uc-runde-erstellen.png)
+![width:1000px drop-shadow:0,5px,10px,rgba(0,0,0,.4)](./assets/d-uc-combo.png)
 
 <!-- gute wahl? -->
 
@@ -67,7 +67,7 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 
 * Frontend: React, TypeScript, Node.js
 * API statt Backend: ExpressJS, MongoDB
-* CI/CD mit GitHub Actions
+* Deployment mit GitHub Actions
 * Docker
 
 <!-- one by one durchgehen -->
@@ -78,34 +78,34 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 
 <br />
 
-![width:800px](./assets/services.png)
+![width:800px drop-shadow:0,5px,10px,rgba(0,0,0,.4)](./assets/services.png)
 
 <!-- Kommunikation FE zu API, API zu DB -->
 <!-- hier vllt auch kurz auf die API eingehen und die Doku in der Live Demo zeigen -->
 
 ---
 
-## Architektur: State Machine
+## State Machine
 
 <br />
 
-![width:800px](./assets/state-machine.png)
+![width:800px drop-shadow:0,5px,10px,rgba(0,0,0,.4)](./assets/state-machine.png)
 
 <!-- Spielablauf in drei Phasen als State Machine, danach folgt das Aktivitätsd. -->
+
+---
+
+## Komponenten
+
+![width:1100px](./assets/d-objekt.png)
+
+<!-- Der Aufbau der App gesehen in Komponenten, die teils neue Komponenten bilden -->
 
 ---
 
 ### Aktivitätsdiagramm
 
 ![width:450px](./assets/d-activity.png)
-
----
-
-## Architektur: Komponenten
-
-![width:1100px](./assets/d-objekt.png)
-
-<!-- Der Aufbau der App gesehen in Komponenten, die teils neue Komponenten bilden -->
 
 ---
 
@@ -119,19 +119,21 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 
 ## Live Demo
 
+<br />
+
 <!-- in die Live Demo wechseln -->
 
 [![live demo h:8em drop-shadow:0,5px,10px,rgba(0,0,0,.4)](./assets/map.png)](https://ihnn.x5f.de/)
 
-<!-- auch die API Doku zeigen? -->
-
 ---
 
-## Try Yourself
+## Live Demo API
 
-<!-- QR Code damit die Leute sich das dann auch selbst anschauen können -->
+<br />
 
-![h:12em](./assets/qr.png)
+<!-- in die Live Demo wechseln -->
+
+[![live demo h:5em drop-shadow:0,5px,10px,rgba(0,0,0,.4)](./assets/plane.png)](https://api.ihnn.x5f.de/)
 
 ---
 
@@ -172,11 +174,23 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 
 ## Organisation & Kommunikation
 
-- GitHub Issues & Projects
+- GitHub Issues & Projects (KanBan)
 - Teams Besprechungen
-- Wasserfall-Modell pro Meilenstein
 
 <!-- darlegen das wasserfall eher suboptimal lief, da alles auf zwei Meilensteine aufgeteilt wurde; das eher aber auch wegen des fatalen Zeitmanagements -->
+
+---
+
+## Aufgabenverteilung
+
+##### Verteilung nach Vorerfahrung und Interesse
+
+| Person | Aufgabe |
+|:--- |:--- |
+| Sören | Frontend &bull; API &bull; Doku &bull; Deploy |
+| Jannik | Frontend &bull; API &bull; Doku &bull; Präsentation |
+| Engin | Testing &bull; Datenmodell |
+| Nico | Design &bull; Präsentation |
 
 ---
 
@@ -184,25 +198,32 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 
 - Weiterentwicklung möglich
 - Rewrite notwendig
-- Bessere Zeitplanung
+- Bessere Zeitplanung & Kommunikation
 
 <!-- Nach einem Rewrite könnten neue Funktionen einfach als weitere Komponenten eingebaut werden -->
 <!-- bessere Worte für den Review finden -->
 
 ---
 
-![bg vertical](https://fakeimg.pl/800x600/0288d1/fff/?text=tech%20a)
-![bg](https://fakeimg.pl/800x600/02669d/fff/?text=%23tech%20b)
-![bg](https://fakeimg.pl/800x600/67b8e3/fff/?text=tech%20c)
-![bg](https://fakeimg.pl/800x600/88d6f1/fff/?text=tech%20d)
-
-# idee ?
+<!-- _footer: "" -->
+![bg vertical](./assets/tech-1-app.png)
+![bg](./assets/tech-2-api.png)
+![bg](./assets/tech-3-docs.png)
+![bg](./assets/tech-4-marp.png)
 
 ---
 
 ![bg](/assets/background.png)
 
 ## Fragen?
+
+---
+
+## Selber spielen?
+
+<!-- QR Code damit die Leute sich das dann auch selbst anschauen können -->
+
+![h:12em](./assets/qr.png)
 
 ---
 
