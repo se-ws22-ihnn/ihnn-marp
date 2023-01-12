@@ -5,6 +5,8 @@ description: HAW Software Engineering WS22/23
 theme: uncover
 paginate: true
 _paginate: false
+footer: Team 05, Software Engineering WS22/23, HAW Hamburg
+_footer: ""
 ---
 
 ![bg](./assets/full.png)
@@ -25,9 +27,9 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 ## Gliederung
 
 1. Idee
-2. Lastenheft
+2. Lastenheft ? Planung?
 3. Umsetzung & Architektur
-4. Tests
+4. Testing
 5. Automation & Deployment
 6. Organisation & Kommunikation
 7. Aussicht & Reflexion
@@ -36,7 +38,12 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 
 ## Idee
 
-...
+- basiert auf dem Spiel "Ich habe noch nie"
+- Themenbereich Bucket List
+- Ideal auf dem Smartphone spielbar
+- Flexible Gruppengröße
+
+<!-- Die Idee neu übertragen, Uni-freundliches Thema, -->
 
 ---
 
@@ -44,42 +51,83 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 
 ![width:800px](./assets/d-mockup.jpeg)
 
+<!-- Mockup der ersten Stunde -->
+
+---
+
+## Use Case: Spiel vorbereiten
+
+![width:500px](./assets/d-uc-runde-erstellen.png)
+
+<!-- gute wahl? -->
+
 ---
 
 ## Architektur: Technologien
 
-- Frontend: React, TypeScript, Node.js
-- API statt Backend: ExpressJS, MongoDB
-- CI/CD mit GitHub Actions
-- Docker
+* Frontend: React, TypeScript, Node.js
+* API statt Backend: ExpressJS, MongoDB
+* CI/CD mit GitHub Actions
+* Docker
+
+<!-- one by one durchgehen -->
 
 ---
 
 ## Architektur: Kommunikation
 
+<br />
+
 ![width:800px](./assets/services.png)
+
+<!-- Kommunikation FE zu API, API zu DB -->
+<!-- hier vllt auch kurz auf die API eingehen und die Doku in der Live Demo zeigen -->
 
 ---
 
 ## Architektur: State Machine
 
+<br />
+
 ![width:800px](./assets/state-machine.png)
+
+<!-- Spielablauf in drei Phasen als State Machine, danach folgt das Aktivitätsd. -->
 
 ---
 
+### Aktivitätsdiagramm
+
+![width:450px](./assets/d-activity.png)
+
+---
+
+## Architektur: Komponenten
+
+![width:1100px](./assets/d-objekt.png)
+
+<!-- Der Aufbau der App gesehen in Komponenten, die teils neue Komponenten bilden -->
+
+---
+
+## Architektur: MVC
+
+![width:800px](./assets/d-mvc.png)
+
+<!-- vereinfachte Darstellung, da wir kein Backend haben. Nur Views die auch M und C haben dargestellt -->
 
 ---
 
 ## Live Demo
 
-<!-- slide optional -->
 <!-- in die Live Demo wechseln -->
 
 [![live demo h:8em drop-shadow:0,5px,10px,rgba(0,0,0,.4)](./assets/map.png)](https://ihnn.x5f.de/)
 
+<!-- auch die API Doku zeigen? -->
+
 ---
 
-## Live Demo
+## Try Yourself
 
 <!-- QR Code damit die Leute sich das dann auch selbst anschauen können -->
 
@@ -87,13 +135,15 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 
 ---
 
-## Tests
+## Testing
 
-- Live Konsolen Ausgabe
-- Eigenes Testing
-- Code Review
-- PageSpeed Insights
-- Feedback
+* Live Konsolen Ausgabe
+* Eigenes Testing
+* Code Review
+* PageSpeed Insights
+* Feedback
+
+<!-- one by one -->
 
 ---
 
@@ -110,8 +160,8 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 ## Deployment
 
 - Ende der Pipeline löst Redeploy aus
-- Optimiert auf geringe Image Größe
 - 5 Min. von Commit bis Deploy ausgeführt
+- optimiert auf geringe Image Größe
 
 <!-- oft sogar schneller -->
 
@@ -121,6 +171,9 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 
 - GitHub Issues & Projects
 - Teams Besprechungen
+- Wasserfall-Modell pro Meilenstein
+
+<!-- darlegen das wasserfall eher suboptimal lief, da alles auf zwei Meilensteine aufgeteilt wurde; das eher aber auch wegen des fatalen Zeitmanagements -->
 
 ---
 
@@ -130,6 +183,7 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 - Rewrite notwendig
 - Bessere Zeitplanung
 
+<!-- Nach einem Rewrite könnten neue Funktionen einfach als weitere Komponenten eingebaut werden -->
 <!-- bessere Worte für den Review finden -->
 
 ---
@@ -147,7 +201,15 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 
 ## Fragen?
 
+---
 
+## Vielen Dank für die Aufmerksamkeit
+
+--
+
+#### Quellen
+
+Alle Diagramme, sowie die Grafiken für unsere App sind selbst erstellt. Logos von Technologien gehören ihren jeweiligen Eigentümern.
 
 <!-- den rest bitte hier nachschauen:
 [marp-cli-example](https://github.com/yhatt/marp-cli-example)
