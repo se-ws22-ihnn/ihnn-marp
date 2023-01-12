@@ -144,6 +144,7 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 * Feedback
 
 <!-- one by one -->
+<!-- der Docker Build ist natürlich auch eine Art test, baut es nicht, wird gar nicht erst deployed... -->
 
 ---
 
@@ -162,6 +163,8 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 - Ende der Pipeline löst Redeploy aus
 - 5 Min. von Commit bis Deploy ausgeführt
 - optimiert auf geringe Image Größe
+
+![width:800px](./assets/ghcr-packages.png)
 
 <!-- oft sogar schneller -->
 
