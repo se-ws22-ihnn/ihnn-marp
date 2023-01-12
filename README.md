@@ -21,3 +21,11 @@ or just use the VS Code Extension [Marp for VS Code](https://marketplace.visuals
 ## build
 
 Dockerfile builds everything and the final image is based on nginx:alpine, so final image size is very small
+
+## Notes
+
+### Lists
+
+`*` one by one
+
+`-` all at once
