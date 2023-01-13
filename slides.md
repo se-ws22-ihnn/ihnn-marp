@@ -194,6 +194,8 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 - Workflows für jedes Repository
 - Deployment mit GitHub Actions
 
+![width:400px](./assets/docker-lightyear.jpg)
+
 <!-- alle Teile des Projekts; Code, Doku und Präsi werden gebaut und ausgeliefert -->
 
 <!-- Sören -->
@@ -210,6 +212,17 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 
 <!-- oft sogar schneller -->
 <!-- Sören -->
+
+---
+
+## Monitoring
+
+cAdvisor, Prometheus & Grafana
+
+![width:700px](./assets/monitoring.png)
+
+<!-- Sören -->
+<!-- cAdvisor, Prometheus, Grafana -->
 
 ---
 
