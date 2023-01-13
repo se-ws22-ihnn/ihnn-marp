@@ -57,6 +57,9 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 <!-- Mockup der ersten Stunde -->
 
 <!-- Jannik -->
+<!-- - Idee erster Ansatz -->
+<!-- - Brainstorming Resultat: Mindmap mit MockUps -->
+<!-- - 3 Phasen -->
 
 ---
 
@@ -64,9 +67,9 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 
 ![width:1000px drop-shadow:0,5px,10px,rgba(0,0,0,.4)](./assets/d-uc-combo.png)
 
-<!-- gute wahl? -->
-
 <!-- Jannik -->
+<!-- - Gruppe erstellen -->
+<!-- - Spielablauf verwalten -->
 
 ---
 
@@ -80,6 +83,9 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 <!-- one by one durchgehen -->
 
 <!-- Jannik -->
+<!-- - NPM => MaterialUI, Formik, Yup -->
+<!-- -  -->
+
 
 ---
 
@@ -89,10 +95,10 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 
 ![width:800px drop-shadow:0,5px,10px,rgba(0,0,0,.4)](./assets/services.png)
 
-<!-- Kommunikation FE zu API, API zu DB -->
-<!-- hier vllt auch kurz auf die API eingehen und die Doku in der Live Demo zeigen -->
-
 <!-- Jannik -->
+<!-- Kommunikation FE zu API, API zu DB -->
+<!-- API wird später von Sören näher erklärt -->
+
 
 ---
 
@@ -102,9 +108,11 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 
 ![width:800px drop-shadow:0,5px,10px,rgba(0,0,0,.4)](./assets/state-machine.png)
 
-<!-- Spielablauf in drei Phasen als State Machine, danach folgt das Aktivitätsd. -->
-
 <!-- Jannik -->
+<!-- - App-Ablauf in Zuständen: 3 Phasen wie im MockUp -->
+<!-- - State erhöhung durch OnClick Funktion bei best. Knöpfen -->
+<!-- - Durch % Ausbruch verhindert -->
+
 
 ---
 
@@ -112,9 +120,10 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 
 ![width:1100px](./assets/d-objekt.png)
 
-<!-- Der Aufbau der App gesehen in Komponenten, die teils neue Komponenten bilden -->
-
 <!-- Jannik -->
+<!-- - Verschachtlung / Abhängigkeit der Komponenten -->
+<!-- - Haupt-Komponente aus versch. anderen Komp. -->
+
 
 ---
 
@@ -123,6 +132,8 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 ![width:450px](./assets/d-activity.png)
 
 <!-- Jannik -->
+<!-- - Verbindet Logik StateMachine & Ablauf aus sicht des Nutzer -->
+<!-- - Quasi Umsetzung der Mindmap/MockUp  -->
 
 ---
 
@@ -130,9 +141,11 @@ Jannik Hoefener (2574970), Nico Bielat (2529235)
 
 ![width:800px](./assets/d-mvc.png)
 
-<!-- vereinfachte Darstellung, da wir kein Backend haben. Nur Views die auch M und C haben dargestellt -->
-
 <!-- Jannik -->
+<!-- vereinf. Darstellung => da kein Backend -->
+<!-- Nur Views die mit Model und Controller "kommunizieren" -->
+
+<!-- Nun Life Demo von Nico -->
 
 ---
 
